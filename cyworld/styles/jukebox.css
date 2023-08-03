@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.album__thum {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 10px;
+}
+
+.wrapper {
+  margin: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header__title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #999999;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 13px;
+  font-weight: 700;
+  color: #55b2d4;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-size: 8px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.bgm__info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bgm__info__cover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cover__title {
+  font-size: 11px;
+  font-weight: 700;
+  color: #0f465e;
+}
+
+.cover__writer {
+  font-size: 10px;
+  font-weight: 700;
+  color: #999999;
+  margin-bottom: 42px;
+}
+
+.wrapper__body {
+  width: 100%;
+}
+
+.albumTable {
+  width: 100%;
+}
+
+.albumTable th {
+  height: 20px;
+  font-size: 10px;
+  font-weight: bold;
+  color: gray;
+  background-color: #eeeeee;
+  padding-top: 5px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+.albumTable td {
+  height: 20px;
+  font-size: 10px;
+  color: #0f465e;
+  border-bottom: 1px dashed gray;
+}
+
+.album-table-checkbox {
+  width: 5%;
+  text-align: center;
+}
+
+.album-table-number {
+  width: 10%;
+  text-align: center;
+}
+
+.album-table-song {
+  width: 45%;
+  text-align: left;
+}
+
+.album-table-artist {
+  width: 30%;
+  text-align: center;
+}
